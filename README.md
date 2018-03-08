@@ -13,6 +13,7 @@ doc\service_register\application.yml替换，在通过java -jar spring-cloud-eur
 Eureka消费者，会基于ribbon轮询策略随机选择一台service_producer
 服务之间通过restful方式调用
 
-##### 2 service_feign_consumer
+##### 2 service_feign_consumer 
 feign内部也使用了ribbon做负载均衡,更优雅
 服务之间通过restful方式调用
+service_feign_consumer添加熔断器
