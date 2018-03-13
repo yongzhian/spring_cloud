@@ -13,6 +13,7 @@
         <module>service_feign_consumer</module>
         <module>service_consumer</module>
         <module>service_feign_consumer</module>
+        <module>monitor_cluster_turbine_hystrix_dashboard</module>
     </modules>
 
     <!--spring boot相关直接使用父类的版本-->
